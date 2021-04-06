@@ -1,0 +1,22 @@
+{
+  "name": "projector-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon lesson4/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birth-mark/projector-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birth-mark/projector-test/issues"
+  },
+  "homepage": "https://github.com/birth-mark/projector-test#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
 
   if(!answer){
     res.statusCode = 404;
-    res.end();
+    return res.end();
   }
 
   res.statusCode = 200;
